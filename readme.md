@@ -1,7 +1,7 @@
 ThoughtWorks 结对编程比赛
 ====
 ### 2017年6月3日
-### Author:Heyulinxp [Victorz]Victorz
+### Author:Heyulinxp [Victorz](Victorz)
 ## 题目内容
     * 生命游戏
 ## 要求：
