@@ -165,8 +165,31 @@ public class Competition {
 		System.out.println("7.(3___4_12_____3_____10____9)");
 		System.out.println("8.User-defined");
 		System.out.print("Your choice is :");
-		type = scanner.nextInt();
-
+		while (true) {
+			try {
+				String line = scanner.nextLine();
+				type = Integer.valueOf(line);
+			} catch (Exception e1) {
+				System.out.println("Invalid input,please input again!");
+				System.out.print("Your choice is :");
+				
+				continue;
+			}
+			while (type < 1 || type > 8) {
+				System.out.println("Invalid input,please input again!");
+				System.out.print("Your choice is :");
+				try {
+					String line = scanner.nextLine();
+					type = Integer.valueOf(line);
+				} catch (Exception e1) {
+					System.out.println("Invalid input,please input again!");
+					System.out.print("Your choice is :");
+					continue;
+				}
+			}
+			if (type > 0 && type <= 8)
+				break;
+		}
 		if (type != 8) {
 			String str = "case/case" + String.valueOf(type) + ".txt";
 			matrix = CaseFactory.InitMatrixFromFile(str);
@@ -180,7 +203,6 @@ public class Competition {
 			System.out.print("Please input the delay time of each refresh (ms):");
 			delay = scanner.nextInt();
 			matrix = CaseFactory.UserDefineMatrix(rows, cols, number, delay);
-
 		}
 		scanner.close();
 		rows = CaseFactory.rows;
