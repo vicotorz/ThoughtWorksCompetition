@@ -1,7 +1,7 @@
 ThoughtWorks 结对编程比赛
 ====
 ### 2017年6月3日
-### Author:Heyulinxp [Victorz](Victorz)
+### Author:Heyulinxp [Victorz](https://github.com/vicotorz/Competition_TW)(Victorz)
 ## 题目内容
     * 生命游戏
 ## 要求：
@@ -13,4 +13,3 @@ ThoughtWorks 结对编程比赛
 ## 实现:
     * 借助了Java的控制台库lanterna-2.1.7.jar
 ---------------------------------------------------
-[Victorz]:https://github.com/vicotorz/Competition_TW "Victorz's Github"
