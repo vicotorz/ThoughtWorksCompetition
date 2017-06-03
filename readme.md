@@ -13,4 +13,4 @@ ThoughtWorks 结对编程比赛
 ## 实现:
     * 借助了Java的控制台库lanterna-2.1.7.jar
 ---------------------------------------------------
-[Victorz]:https://github.com/vicotorz "Victorz's Github"
+[Victorz]:http://github.com/vicotorz "Victorz's Github"
